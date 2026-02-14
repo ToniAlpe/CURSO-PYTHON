@@ -1,6 +1,6 @@
 # 🐍 Curso de Python desde Cero - MoureDev
 
-Este repositorio es mi diario de aprendizaje en **Python**. Aquí guardo todo el código, los retos y los apuntes basados en la metodología de [MoureDev](https://moure.dev).
+Este repositorio contiene todo el código, ejercicios y apuntes que voy realizando durante el curso de **Python** de [MoureDev](https://moure.dev). El objetivo es aprender el lenguaje desde sus fundamentos hasta niveles avanzados y desarrollo de backend.
 
 ---
 
