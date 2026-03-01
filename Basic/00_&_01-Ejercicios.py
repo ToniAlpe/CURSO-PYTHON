@@ -22,7 +22,7 @@ variable_int_4 = 100
 print(type(variable_string_4))
 print(type(variable_int_4))
 
-# 5. Crea una variable con un número decimal (float) y conviértela a entero (int).
+# 5. Crea una variable con un número decimal (float) y conviértela a string (str).
 # Imprime el resultado final.
 
 variable_decimal_to_str_5 = 10.5
