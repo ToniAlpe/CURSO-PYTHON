@@ -11,6 +11,7 @@ print(my_int_variable)
 my_int_to_str_variable = str(my_int_variable)
 print(my_int_to_str_variable)
 print(type(my_int_to_str_variable))
+#He pasado de una variable de tipo int a uno de tipo str
 
 my_bool_variable = False
 print(my_bool_variable)
@@ -21,6 +22,7 @@ print("Este es el valor de:", my_bool_variable)
 
 # Algunas funciones del sistema
 print(len(my_string_variable))
+#Esto es el length
 
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Brais", "Moure", 'MoureDev', 35
@@ -32,6 +34,7 @@ name = input('¿Cuál es tu nombre? ')
 age = input('¿Cuántos años tienes? ')
 print(name)
 print(age)
+#Los valores los das tu en la consola del editor
 
 # Cambiamos su tipo
 name = 35
@@ -45,3 +48,4 @@ address = True
 address = 5
 address = 1.2
 print(type(address))
+#Python escoge la ultima fila, en este caso daria un tipo float
