@@ -38,7 +38,7 @@ print(3 != 4) #DIstinto
 # Operaciones con cadenas de texto
 print("Hola" > "Python")
 print("Hola" < "Python")
-print("aaaa" >= "abaa")  # Ordenación alfabética por ASCII
+print("aaaa" >= "abaa")  # Ordenación alfabética por ASCII (no cuenta caracteres) a no es mayor que b --> Por eso sale false
 print(len("aaaa") >= len("abaa"))  # Cuenta caracteres
 print("Hola" <= "Python")
 print("Hola" == "Hola")
@@ -47,9 +47,27 @@ print("Hola" != "Python")
 ### Operadores Lógicos ###
 
 # Basada en el Álgebra de Boole https://es.wikipedia.org/wiki/%C3%81lgebra_de_Boole
-print(3 > 4 and "Hola" > "Python")
-print(3 > 4 or "Hola" > "Python")
+print(3 > 4 and "Hola" > "Python") #&&
+print(3 > 4 or "Hola" > "Python")  #||
 print(3 < 4 and "Hola" < "Python")
 print(3 < 4 or "Hola" > "Python")
-print(3 < 4 or ("Hola" > "Python" and 4 == 4))
-print(not (3 > 4))
+print(3 < 4 or ("Hola" > "Python" and 4 == 4)) #Hace primero lo del parentesis (como en mates)
+print(not (3 > 4)) # !=
+
+#Logica booleana
+
+"""
+and
+false y false = false
+true y false = false
+true y true = true
+
+or
+false o false = false
+true o true = true
+true o false = true
+
+not
+no false = true
+no true = false
+"""
